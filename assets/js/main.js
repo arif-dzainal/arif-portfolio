@@ -96,6 +96,7 @@ function removeScale(){
 // PDF generated area
 let areaCv = document.getElementById('area-cv');
 let resumeButton = document.getElementById('resume-button');
+let downloadButton = document.getElementById('download-button');
 
 // Html2pdf options
 let opt = {
@@ -122,6 +123,16 @@ resumeButton.addEventListener('click', () =>{
     setTimeout(removeScale, 5000);
 });
 
+downloadButton.addEventListener('click', () =>{
+    // 1. The class .scale-cv is added to the body, where it reduces the size of the elements
+    scaleCv();
+    // 2. The PDF is generated
+    generateResume();
+
+    // 3. The .scale-cv class is removed from the body after 5 seconds to return to normal size.
+    setTimeout(removeScale, 5000);
+});
+
 
 /*==================== SCROLL REVEAL ANIMATION ====================*/
 const sr = ScrollReveal({
@@ -138,4 +149,4 @@ sr.reveal(`.home__data, .home__img,
             .contact__data, .contact__button,
             .footer__content`, {
     interval: 200
-})
+});

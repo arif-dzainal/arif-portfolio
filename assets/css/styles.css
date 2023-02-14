@@ -371,7 +371,6 @@ img{
     color: var(--container-color);
 }
 
-
 /*========== SOCIAL ==========*/
 .social__container{
     grid-template-columns: max-content;
@@ -469,10 +468,10 @@ img{
 }
 
 /*========== CERTIFICATES ==========*/
-.certificate__title{
+/*.certificate__title{
     font-size: var(--h3-font-size);
     margin-bottom: var(--mb-1);
-}
+}*/
 
 /*========== REFERENCES ==========*/
 .references__content{
@@ -490,7 +489,6 @@ img{
 .references__title{
     font-size: var(--h3-font-size);
 }
-
 
 /*========== INTERESTS ==========*/
 .interests__container{
@@ -551,56 +549,56 @@ img{
     body{
         margin: 3rem 0;
     }
-    
+
     .bd-container{
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     .l-header,.scrolltop{
         display: none;
     }
-    
+
     .resume{
         display: grid;
         grid-template-columns: .5fr 1fr;
         background-color: var(--container-color);
         box-shadow: 0 0 8px rgba(13,12,12,.15);
     }
-    
+
     .resume__left{
         background-color: var(--container-color-alt);
     }
-    
+
     .resume__left,.resume__right{
         padding: 0 1.5rem;
     }
-    
+
     .generate-pdf{
         display: inline-block;
     }
-    
+
     .section-title, .profile__description{
         text-align: initial;
     }
-    
+
     .home__container{
         gap: 1.5rem;
     }
-    
+
     .home__button-movil{
         display: none;
     }
-    
+
     .references__container{
         grid-template-columns: repeat(2,1fr);
     }
-    
+
     .languages__content{
         grid-template-columns: repeat(3, max-content);
         column-gap: 3.5rem;
     }
-    
+
     .interests__container{
         grid-template-columns: repeat(4, max-content);
         column-gap: 3.5rem;
