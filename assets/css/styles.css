@@ -429,7 +429,7 @@ img{
     gap: .5rem;
 }
 
-.education-title,.experience__title,.certificate__title{
+.education-title,.experience__title,.certificate-title{
     font-size: var(--h3-font-size);
 }
 
