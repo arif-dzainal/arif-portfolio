@@ -7,4 +7,4 @@ Don't forget to join the channel for more videos like this. [Bedimcode](https://
 
 ![Resume cv](/preview.png)
 
-## [See it live here] (https://arifdzainal.github.io/arif-portfolio/)
+## [See it live here](https://arifdzainal.github.io/arif-portfolio/)
