@@ -12,6 +12,7 @@
     --container-color: #FAFAFA;
     --container-color-alt: #F0EFEF;
     --body-color: #FCFCFC;
+    --text-color-blue: 002699;
 
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
@@ -208,7 +209,8 @@ img{
 
 .section-title{
     font-size: var(--h1-font-size);
-    color: var(--title-color);
+    /*color: var(--title-color);*/
+    color: var(--text-color-blue);
     font-weight: var(--font-semi-bold);
     text-transform: uppercase;
     letter-spacing: .35rem;
@@ -287,7 +289,7 @@ img{
 .nav__link{
     display: flex;
     flex-direction: column;
-    font-size: var(--smaller-font-size);
+    font-size: var(--smaller-font-size) !important;
     color: var(--text-color-light);
     font-weight: var(--font-medium);
 }
@@ -591,6 +593,7 @@ img{
 
     .section-title, .profile__description{
         text-align: initial;
+        color: var(--text-color-blue);
     }
 
     .home__container{
@@ -614,4 +617,8 @@ img{
         grid-template-columns: repeat(4, max-content);
         column-gap: 3.5rem;
     }
+}
+
+.skills, .section, .section-title{
+    color: var(--text-color-blue);
 }
